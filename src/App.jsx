@@ -6,7 +6,7 @@ import ChangeCounter from './ChangeCounter'
 import ToggleName from './ToggleName'
 
 function App() {
-  const [name, setName] = useState("Bisrat")
+  const [name, setName] = useState("")
   const [hidden, setHidden] = useState(false)
   const [todos, setTodos] = useState([{
     title: "todo1",
